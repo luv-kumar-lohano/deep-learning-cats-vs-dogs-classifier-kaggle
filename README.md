@@ -18,7 +18,6 @@ The file also contains:
 To access the dataset: https://www.kaggle.com/c/dogs-vs-cats/data
 
 
-## Repository Structure
 
 # Additional Notes:
 
