@@ -19,3 +19,15 @@ To access the dataset: https://www.kaggle.com/c/dogs-vs-cats/data
 
 
 ## Repository Structure
+
+# Additional Notes:
+
+Features added to improve the base model:
+1. Dropout Regularization - Randomly sets x% of neurons to 0 (drop out) during training. Helps prevent overfitting.
+2. Batch Normalization - Normalizes layer inputs during training to stabilize learning and improve speed.
+3. Data Augmentation - Applies transformations like rotation, flipping, and zooming to training data to improve model generalization.
+4. Validation Split - Separates part of the data for validation during training to monitor performance and avoid overfitting.
+5. Early Stopping - Stops training if validation performance stops improving, saving training time.
+6. Checkpoints - Saves the best model based on validation accuracy for future use.
+7. TensorBoard - Provides a visual representation of metrics like accuracy and loss during training.
+8. Fine-Tuning - Unfreezes some pre-trained model layers for additional training to better adapt to the dataset.
